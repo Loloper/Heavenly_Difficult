@@ -1,0 +1,228 @@
+[22:53:23] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.16.10
+[22:53:24] [main/INFO] (FabricLoader) Loading 59 mods:
+	- fabric-api 0.92.3+1.20.1
+	- fabric-api-base 0.4.31+1802ada577
+	- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	- fabric-biome-api-v1 13.0.13+1802ada577
+	- fabric-block-api-v1 1.0.11+1802ada577
+	- fabric-block-view-api-v2 1.0.1+1802ada577
+	- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	- fabric-client-tags-api-v1 1.1.2+1802ada577
+	- fabric-command-api-v1 1.2.34+f71b366f77
+	- fabric-command-api-v2 2.2.13+1802ada577
+	- fabric-commands-v0 0.2.51+df3654b377
+	- fabric-containers-v0 0.1.65+df3654b377
+	- fabric-content-registries-v0 4.0.12+1802ada577
+	- fabric-convention-tags-v1 1.5.5+1802ada577
+	- fabric-crash-report-info-v1 0.2.19+1802ada577
+	- fabric-data-attachment-api-v1 1.0.1+de0fd6d177
+	- fabric-data-generation-api-v1 12.3.5+1802ada577
+	- fabric-dimensions-v1 2.1.54+1802ada577
+	- fabric-entity-events-v1 1.6.0+1c78457f77
+	- fabric-events-interaction-v0 0.6.3+13a40c6677
+	- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	- fabric-game-rule-api-v1 1.0.40+1802ada577
+	- fabric-gametest-api-v1 1.2.14+1802ada577
+	- fabric-item-api-v1 2.1.28+1802ada577
+	- fabric-item-group-api-v1 4.0.13+1802ada577
+	- fabric-key-binding-api-v1 1.0.37+1802ada577
+	- fabric-keybindings-v0 0.2.35+df3654b377
+	- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	- fabric-loot-api-v2 1.2.2+1802ada577
+	- fabric-loot-tables-v1 1.1.46+9e7660c677
+	- fabric-message-api-v1 5.1.9+1802ada577
+	- fabric-mining-level-api-v1 2.1.51+1802ada577
+	- fabric-model-loading-api-v1 1.0.3+1802ada577
+	- fabric-models-v0 0.4.2+9386d8a777
+	- fabric-networking-api-v1 1.3.12+13a40c6677
+	- fabric-networking-v0 0.3.52+df3654b377
+	- fabric-object-builder-api-v1 11.1.4+1802ada577
+	- fabric-particles-v1 1.1.2+1802ada577
+	- fabric-recipe-api-v1 1.0.22+1802ada577
+	- fabric-registry-sync-v0 2.3.4+1802ada577
+	- fabric-renderer-api-v1 3.2.1+1802ada577
+	- fabric-renderer-indigo 1.5.2+85287f9f77
+	- fabric-renderer-registries-v1 3.2.46+df3654b377
+	- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	- fabric-rendering-v0 1.1.49+df3654b377
+	- fabric-rendering-v1 3.0.8+1802ada577
+	- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	- fabric-resource-loader-v0 0.11.11+fb82e9d777
+	- fabric-screen-api-v1 2.0.8+1802ada577
+	- fabric-screen-handler-api-v1 1.3.31+1802ada577
+	- fabric-sound-api-v1 1.0.13+1802ada577
+	- fabric-transfer-api-v1 3.3.5+8dd72ea377
+	- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabricloader 0.16.10
+	- hd 1.0.0
+	- java 23
+	- minecraft 1.20.1
+	- mixinextras 0.4.1
+[22:53:24] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/loloper/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[22:53:24] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[22:53:24] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[22:53:25] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[22:53:30] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 241 milliseconds
+[22:53:32] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:53:32] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:124) ~[authlib-4.0.43.jar:?]
+	at net.minecraft.client.MinecraftClient.createUserApiService(MinecraftClient.java:733) ~[minecraft-clientOnly-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:442) ~[minecraft-clientOnly-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:211) ~[minecraft-clientOnly-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.10.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:85) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
+	... 9 more
+[22:53:32] [Render thread/INFO] (Minecraft) Setting user: Player964
+[22:53:33] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[22:53:33] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.2-snapshot
+[22:53:33] [Render thread/INFO] (Minecraft) [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
+[22:53:34] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-models-v0, fabric-recipe-api-v1, fabric-crash-report-info-v1, fabric-resource-loader-v0, fabric-events-interaction-v0, fabric-item-group-api-v1, fabric-api-base, fabric-renderer-api-v1, fabric-networking-api-v1, fabric-item-api-v1, fabric-data-generation-api-v1, fabric-events-lifecycle-v0, fabric-entity-events-v1, fabric-sound-api-v1, fabric-command-api-v2, fabric-lifecycle-events-v1, fabric-containers-v0, fabric-client-tags-api-v1, fabric-api, fabric-loot-api-v2, fabric-transitive-access-wideners-v1, fabric-resource-conditions-api-v1, fabric-dimensions-v1, fabric-renderer-indigo, fabric-biome-api-v1, fabricloader, fabric-commands-v0, fabric-rendering-v1, fabric-api-lookup-api-v1, fabric-key-binding-api-v1, fabric-gametest-api-v1, fabric-screen-api-v1, fabric-blockrenderlayer-v1, fabric-networking-v0, fabric-keybindings-v0, fabric-loot-tables-v1, fabric-block-api-v1, fabric-rendering-v0, fabric-particles-v1, fabric-content-registries-v0, fabric-model-loading-api-v1, fabric-mining-level-api-v1, fabric-command-api-v1, hd, fabric-data-attachment-api-v1, fabric-message-api-v1, fabric-rendering-data-attachment-v1, fabric-block-view-api-v2, fabric-rendering-fluids-v1, fabric-game-rule-api-v1, fabric-convention-tags-v1, fabric-screen-handler-api-v1, fabric-object-builder-api-v1, fabric-transfer-api-v1, fabric-renderer-registries-v1, fabric-registry-sync-v0)
+[22:53:34] [Worker-Main-7/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
+[22:53:35] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[22:53:36] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[22:53:36] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[22:53:36] [Render thread/INFO] (Minecraft) OpenAL initialized on device Family 17h/19h/1ah HD Audio Controller Speaker
+[22:53:36] [Render thread/INFO] (Minecraft) Sound engine started
+[22:53:36] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[22:53:36] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[22:53:36] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[22:53:36] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[22:53:36] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[22:53:36] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[22:53:36] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[22:53:36] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[22:53:36] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[22:53:37] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[22:53:37] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[22:53:37] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[22:53:37] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[22:53:43] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[22:53:43] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
+[22:53:43] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 1.650 ms
+[22:53:43] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
+[22:53:43] [Server thread/INFO] (Minecraft) Generating keypair
+[22:53:44] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[22:53:46] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:53:46] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:53:46] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:53:46] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:53:46] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[22:53:46] [Render thread/INFO] (Minecraft) Preparing spawn area: 10%
+[22:53:47] [Render thread/INFO] (Minecraft) Preparing spawn area: 86%
+[22:53:47] [Render thread/INFO] (Minecraft) Time elapsed: 3082 ms
+[22:53:47] [Server thread/INFO] (Minecraft) Changing view distance to 14, from 10
+[22:53:47] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[22:53:48] [Server thread/INFO] (Minecraft) Player964[local:E:f2afe45e] logged in with entity id 14 at (-4.315596509062439, -54.11305974699558, 54.57585398889764)
+[22:53:48] [Server thread/INFO] (Minecraft) Player964 joined the game
+[22:53:49] [Render thread/INFO] (Minecraft) Loaded 4 advancements
+[22:54:04] [Server thread/INFO] (Minecraft) [Player964: Gave 1 [Jigsaw Block] to Player964]
+[22:54:04] [Render thread/INFO] (Minecraft) [System] [CHAT] Gave 1 [Jigsaw Block] to Player964
+[22:54:04] [Render thread/INFO] (Minecraft) Loaded 5 advancements
+[22:54:10] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[22:54:10] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:54:10] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:54:10] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:54:19] [Server thread/ERROR] (Minecraft) Failed to handle packet net.minecraft.network.packet.c2s.play.JigsawGeneratingC2SPacket@486d1348, suppressing error
+java.lang.IllegalArgumentException: Bound must be positive
+	at net.minecraft.util.math.random.BaseRandom.nextInt(BaseRandom.java:17) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.structure.pool.StructurePool.getRandomElement(StructurePool.java:101) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.structure.pool.StructurePoolBasedGenerator.generate(StructurePoolBasedGenerator.java:65) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.structure.pool.StructurePoolBasedGenerator.generate(StructurePoolBasedGenerator.java:205) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.block.entity.JigsawBlockEntity.generate(JigsawBlockEntity.java:112) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.server.network.ServerPlayNetworkHandler.onJigsawGenerating(ServerPlayNetworkHandler.java:728) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.network.packet.c2s.play.JigsawGeneratingC2SPacket.apply(JigsawGeneratingC2SPacket.java:33) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.network.packet.c2s.play.JigsawGeneratingC2SPacket.apply(JigsawGeneratingC2SPacket.java:14) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:22) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.server.ServerTask.run(ServerTask.java:17) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:138) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:24) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:825) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:204) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:112) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.server.MinecraftServer.runOneTask(MinecraftServer.java:808) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.server.MinecraftServer.runTask(MinecraftServer.java:802) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:122) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.server.MinecraftServer.runTasksTillTickEnd(MinecraftServer.java:789) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:727) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:268) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at java.lang.Thread.run(Thread.java:1575) ~[?:?]
+[22:54:27] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[22:54:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:54:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:54:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:54:54] [Server thread/ERROR] (Minecraft) Failed to handle packet net.minecraft.network.packet.c2s.play.JigsawGeneratingC2SPacket@75debfb1, suppressing error
+java.lang.IllegalStateException: Missing key in ResourceKey[minecraft:root / minecraft:worldgen/template_pool]: ResourceKey[minecraft:worldgen/template_pool / hd:hdremotetavern]
+	at net.minecraft.registry.Registry.method_47446(Registry.java:375) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.registry.Registry.entryOf(Registry.java:375) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.block.entity.JigsawBlockEntity.generate(JigsawBlockEntity.java:111) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.server.network.ServerPlayNetworkHandler.onJigsawGenerating(ServerPlayNetworkHandler.java:728) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.network.packet.c2s.play.JigsawGeneratingC2SPacket.apply(JigsawGeneratingC2SPacket.java:33) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.network.packet.c2s.play.JigsawGeneratingC2SPacket.apply(JigsawGeneratingC2SPacket.java:14) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:22) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.server.ServerTask.run(ServerTask.java:17) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:138) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:24) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:825) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:204) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:112) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.server.MinecraftServer.runOneTask(MinecraftServer.java:808) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.server.MinecraftServer.runTask(MinecraftServer.java:802) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:122) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.server.MinecraftServer.runTasksTillTickEnd(MinecraftServer.java:789) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:727) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:268) ~[minecraft-common-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at java.lang.Thread.run(Thread.java:1575) ~[?:?]
+[22:54:59] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[22:54:59] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:54:59] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:54:59] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:55:19] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[22:55:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:55:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:55:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:55:23] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[22:55:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:55:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:55:23] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:55:28] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[22:55:28] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:55:28] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:55:28] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:55:39] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[22:55:39] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:55:39] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:55:39] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:57:00] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[22:57:00] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:57:00] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:57:00] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:57:59] [Server thread/ERROR] (Minecraft) No starting jigsaw minecraft:empty found in start pool hd:hdremotetavern/start_pool
+[22:58:03] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[22:58:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:58:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:58:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:58:07] [Server thread/ERROR] (Minecraft) No starting jigsaw minecraft:empty found in start pool hd:hdremotetavern/start_pool
+[22:58:09] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[22:58:09] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:58:09] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:58:09] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:58:47] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[22:58:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:58:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:58:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22:58:59] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[22:58:59] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22:58:59] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22:58:59] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
