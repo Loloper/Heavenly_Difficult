@@ -2,8 +2,18 @@ package heavenlydifficult.hd;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
+import net.minecraft.item.Items;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
+import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.util.function.Function;
 
 public class HD implements ModInitializer {
 	public static final String MOD_ID = "hd";
@@ -15,6 +25,14 @@ public class HD implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		//Register Events
 		RaidEvent.register();
+
+		//Register Blocks
+
+		//Register Items
+
+
 	}
+
 }
