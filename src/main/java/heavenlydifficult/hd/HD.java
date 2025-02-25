@@ -15,6 +15,9 @@ public class HD implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		//Register Events, items, blocks and anything else really
 		RaidEvent.register();
+		HDItems.register();
 	}
+
 }
