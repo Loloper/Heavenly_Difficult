@@ -17,6 +17,7 @@ import net.minecraft.util.math.Box;
 
 import java.util.List;
 
+/*This is the raid event class*/
 public class RaidEvent {
     private static int pillagerAnger = 7;
     private static int raidAgression;
